@@ -1,29 +1,24 @@
+import React, { useState } from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import logo from "../Assets/logo.png";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+import { CgGitFork } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
+import {
+  AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+} from "react-icons/ai";
 
-import {Link} from 'react-router-dom';
-function Header  ()  {
-    return (
-        <header>
-        <h1>
-            <Link to="/">
-            {/* <img src={logo} alt="logo" /> */}
-            <h3>logo</h3>
-            </Link>
-        </h1>
-        <nav>
-            <ul>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/about">About</Link>
-            </li>
-            <li>
-                <Link to="/contact">Contact</Link>
-            </li>
-            </ul>
-        </nav>
-        </header>
-    );
-    }
+import { CgFileDocument } from "react-icons/cg";
 
-export default Header
+function NavBar() {
+ 
+  );
+}
+
+export default Header;
