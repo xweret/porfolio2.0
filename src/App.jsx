@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header/header';
 import Navbar from './components/nav/nav';
+import Home from './components/home/home';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="bg-circle2"></div>
       <Header />
       <Navbar />
+      <Home />
     </>
   );
 }
