@@ -1,5 +1,6 @@
 import './home.css';
 // import img from './props/img2.jpg';
+import Buttons from '../button/button';
 import {BsMouse} from 'react-icons/bs'
 
 function Home (){
@@ -29,6 +30,8 @@ function Home (){
                     I am a Front-End Web Developer with a passion for creating beautiful and functional websites. I like to create websites that are user friendly and easy to use. I have a strong background in HTML, CSS, JavaScript, and React. I am also familiar with the following technologies: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti repellat officia architecto dicta, eum voluptates voluptatibus, fuga iusto autem consectetur temporibus neque repellendus recusandae voluptatem aliquam, esse nostrum sint.
                 </p>
                 </h2>
+
+                <Buttons />
         
         </div>
     )
