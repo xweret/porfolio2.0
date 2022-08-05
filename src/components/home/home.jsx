@@ -1,5 +1,5 @@
 import './home.css';
-// import img from './props/img2.jpg';
+import img from '../props/img2.png';
 import Buttons from '../button/button';
 import {BsMouse} from 'react-icons/bs'
 
@@ -17,7 +17,7 @@ function Home (){
                     <span><div className="circle"></div></span>
                     <span><div className="circle"></div></span>
                 </div>
-                    <img src='{img}' alt='...'/>
+                    <img src={img} alt='...'/>
                 </div>
                 <a href='#footer' className="scroll-down">
                     <hr/>
@@ -38,9 +38,9 @@ function Home (){
 }
 
 
-// const toggle = document.querySelector('.main-img');
-// toggle.addEventListener('click', () => {
-//     toggle.classList.toggle('active');
-// });
+const toggle = document.querySelector('.main-img');
+toggle.addEventListener('click', () => {
+    toggle.classList.toggle('active');
+});
 
 export default Home;
