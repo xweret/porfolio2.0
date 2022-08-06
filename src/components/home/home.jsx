@@ -1,7 +1,7 @@
 import './home.css';
 import img from '../props/img2.png';
 import Buttons from '../button/button';
-import {BsMouse} from 'react-icons/bs'
+import { BsMouse } from 'react-icons/bs'
 
 function Home (){
     return (
@@ -38,9 +38,11 @@ function Home (){
 }
 
 
-const toggle = document.querySelector('.main-img');
-toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active');
-});
+// const toggle = document.querySelector('.main-img');
+// toggle.addEventListener('click', () => {
+//     toggle.classList.toggle('active');
+// });
 
 export default Home;
+
+// // 38.49
